@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-15T03:54:46.409Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.systemverification.stepdefination.Hooks.start()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Checking of the Open Options Page url",
+        "description": "",
+        "id": "system-verification-home-page;checking-of-the-open-options-page-url",
+        "after": [
+          {
+            "result": {
+              "duration": 1449000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.systemverification.stepdefination.Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Careers from tabs",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.clickCareersTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1727000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Open Options from Careers tab",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.clickOpenOptionsTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check Open Options Page verify url",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.openOptionsPageUrl()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@title"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-15T03:55:01.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7279000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.systemverification.stepdefination.Hooks.start()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Checking of Location Category from Open Options Page",
+        "description": "",
+        "id": "system-verification-home-page;checking-of-location-category-from-open-options-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1442000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.systemverification.stepdefination.Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 541000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "First step click Careers from tabs",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.firstStep()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1738000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Second step click Open Options from Careers tab",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.secondStep()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 705000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select Hamburg on Category",
+            "match": {
+              "location": "com.systemverification.stepdefination.OpenOptionsSD.selectLocation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SelectCategory"
+          }
+        ]
+      }
+    ],
+    "name": "System Verification Home Page",
+    "description": "",
+    "id": "system-verification-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OpenOptions.feature",
+    "tags": []
+  }
+]

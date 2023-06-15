@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.048">
+<testcase classname="System Verification Home Page" name="Checking of the Open Options Page url" time="14.902">
+<system-out><![CDATA[Given I am on the Home Page.................................................passed
+When I click Careers from tabs..............................................passed
+And I click Open Options from Careers tab...................................passed
+Then Check Open Options Page verify url.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="System Verification Home Page" name="Checking of Location Category from Open Options Page" time="11.709">
+<system-out><![CDATA[Given First step click Careers from tabs....................................passed
+When Second step click Open Options from Careers tab........................passed
+Then I select Hamburg on Category...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
